@@ -25,7 +25,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           
       - name: Use NPM 7
-        run: npm i -g npm@latest
+        run: yarn i -g npm@latest
 
       - name: Cache dependencies
         uses: actions/cache@v2
@@ -37,9 +37,8 @@ jobs:
             ${{ runner.OS }}-
       - name: Build
         run: |
-          npm ci --legacy-peer-deps
-          npm run build
-          npm run export
+          yarn run build
+          yarn run export
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
