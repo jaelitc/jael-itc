@@ -34,6 +34,7 @@ jobs:
             ${{ runner.OS }}-
       - name: Build
         run: |
+          yarn install
           yarn run build
           yarn run export
       - name: Deploy
