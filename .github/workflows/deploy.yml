@@ -34,7 +34,7 @@ jobs:
             ${{ runner.OS }}-
       - name: Build
         run: |
-          yarn global add next
+          yarn global add next react
           yarn install
           yarn run build
           next export
