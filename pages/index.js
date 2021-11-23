@@ -21,14 +21,14 @@ export default function Home() {
             WEBSITE UNDER CONSTRUCTION
           </div>
           <div className="social">
-            <a href="https://www.linkedin.com/in/aelmoussaoui/" target="_blank" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/aelmoussaoui/" rel="noopener" target="_blank" title="LinkedIn">
               <Linkedin />
             </a>
-            <a href="mailto:contact@jael-itc.be" title="E-mail">
+            <a href="mailto:contact@jael-itc.be" title="Contact">
               <Email />
             </a>
 
-            <a href="/resume.pdf" title="Resume">
+            <a href="/resume.pdf" title="Download Resume">
               <Resume />
             </a>
           </div>
