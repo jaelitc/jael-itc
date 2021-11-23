@@ -12,16 +12,16 @@ Colors:
     - random: #9e7fe7
 */
 a {
-    color: #38353d !important;
+    color: #de3f54 !important;
 }
 a:hover {
-    color: #2D82B7 !important
+    color: #FCFCFC !important
 }
 body, html {
-    background: #F0F7EE;
+    background: #1f1f1f;
     min-height: 100vh;
     height: 100%;
-    color: #38353d;
+    color: #de3f54;
 }
 main.content {
     display: grid;
@@ -35,26 +35,30 @@ main.content {
 
 .brand .title {
     font-size: 4rem;
-    font-weight: 200;
+    font-weight: 900;
+    color: #de3f54;
     margin-bottom: 1rem !important;
 }
 
 .brand .details {
-    font-weight: 1.6rem;
-    color: #524961;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #de3f54;
 }
 
 .brand .social {
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
 }
 
 .brand .social a {
-    margin: 8px;
+    margin: 24px;
+    margin-top: 0;
 }
 
 .svg-inline {
-    width: 32px;
-    height: 32px;
+    width: 48px;
+    height: 48px;
 }

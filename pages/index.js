@@ -14,10 +14,10 @@ export default function Home() {
             JAEL IT Consulting
           </h1>
           <div className="details">
-            Consulting stuff, write more information here probably
+            WEBSITE UNDER CONSTRUCTION
           </div>
           <div className="social">
-            <a href="https://www.linkedin.com/in/aelmoussaoui/" title="LinkedIn">
+            <a href="https://www.linkedin.com/in/aelmoussaoui/" target="_blank" title="LinkedIn">
               <Linkedin />
             </a>
             <a href="mailto:contact@jael-itc.be" title="E-mail">
