@@ -27,10 +27,6 @@ export default function Home() {
             <a href="mailto:contact@jael-itc.be" title="Contact">
               <Email />
             </a>
-
-            <a href="/resume.pdf" title="Download Resume">
-              <Resume />
-            </a>
           </div>
         </div>
       </main>
